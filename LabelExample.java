@@ -66,13 +66,6 @@ public class LabelExample {
 		yellowLabel.setHorizontalAlignment(0);
 		textPanel.add(yellowLabel);
 		
-		JLabel blueLabel = new JLabel("Blue");
-		blueLabel.setForeground(Color.BLUE);
-		blueLabel.setLocation(210, 0);
-		blueLabel.setSize(50, 40);
-		blueLabel.setHorizontalAlignment(0);
-		textPanel.add(blueLabel);
-		
 		JLabel greenLabel = new JLabel("Green");
 		greenLabel.setForeground(Color.GREEN);
 		greenLabel.setLocation(140, 0);
@@ -80,29 +73,65 @@ public class LabelExample {
 		greenLabel.setHorizontalAlignment(0);
 		textPanel.add(greenLabel);
 		
+		JLabel blueLabel = new JLabel("Blue");
+		blueLabel.setForeground(Color.BLUE);
+		blueLabel.setLocation(210, 0);
+		blueLabel.setSize(50, 40);
+		blueLabel.setHorizontalAlignment(0);
+		textPanel.add(blueLabel);
+		
 		JPanel redPanel = new JPanel();
 		redPanel.setBackground(Color.RED);
+		//redPanel.setLayout(null);
 		redPanel.setLocation(20,45);
 		redPanel.setSize(40, 40);
 		totalGUI.add(redPanel);
 		
-		JPanel bluePanel = new JPanel();
-		bluePanel.setBackground(Color.BLUE);
-		bluePanel.setLocation(,45);
-		bluePanel.setSize(40, 40);
-		totalGUI.add(bluePanel);
+		JLabel redNum = new JLabel("1");
+		redNum.setForeground(Color.BLACK);
+		redNum.setLocation(20, 300);
+		redNum.setSize(50, 40);
+		redNum.setHorizontalAlignment(0);
+		redPanel.add(redNum);
 		
 		JPanel yellowPanel = new JPanel();
 		yellowPanel.setBackground(Color.YELLOW);
-		yellowPanel.setLocation(60,45);
+		yellowPanel.setLocation(90,45);
 		yellowPanel.setSize(40, 40);
 		totalGUI.add(yellowPanel);
 		
+		JLabel yellowNum = new JLabel("2");
+		yellowNum.setForeground(Color.BLACK);
+		yellowNum.setLocation(20, 300);
+		yellowNum.setSize(50, 40);
+		yellowNum.setHorizontalAlignment(0);
+		yellowPanel.add(yellowNum);
+		
 		JPanel greenPanel = new JPanel();
 		greenPanel.setBackground(Color.GREEN);
-		greenPanel.setLocation(80,45);
+		greenPanel.setLocation(160,45);
 		greenPanel.setSize(40, 40);
 		totalGUI.add(greenPanel);
+		
+		JLabel greenNum = new JLabel("3");
+		greenNum.setForeground(Color.BLACK);
+		greenNum.setLocation(20, 300);
+		greenNum.setSize(50, 40);
+		greenNum.setHorizontalAlignment(0);
+		greenPanel.add(greenNum);
+		
+		JPanel bluePanel = new JPanel();
+		bluePanel.setBackground(Color.BLUE);
+		bluePanel.setLocation(230,45);
+		bluePanel.setSize(40, 40);
+		totalGUI.add(bluePanel);
+		
+		JLabel blueNum = new JLabel("4");
+		blueNum.setForeground(Color.BLACK);
+		blueNum.setLocation(20, 300);
+		blueNum.setSize(50, 40);
+		blueNum.setHorizontalAlignment(0);
+		bluePanel.add(blueNum);
 		
 		JPanel panelForPanels = new JPanel();
 		panelForPanels.setBackground(Color.LIGHT_GRAY);
